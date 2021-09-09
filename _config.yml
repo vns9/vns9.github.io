@@ -1,0 +1,43 @@
+# Settings that affect the whole site.  This file is *NOT* reloaded automatically when
+# using `bundle exec jekyll serve` -- the server process has to be restarted.
+
+# Site settings.  These are accessed in the HTML files via {{ site.title }},
+# {{ site.email }}, and so on.  Any custom variable can be created and will be accessible
+# in the templates via {{ site.my_variable }}.  Some of these are used by
+# [jekyll-seo-tag][1].
+#
+# [1]: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+title: Venkat
+description: My personal log of bits
+author: Venkat
+twitter:
+  username: narayanasvenkat
+# See <http://shopify.github.io/liquid/filters/date/>.
+date_format: "%Y-%m-%d"
+permalink: pretty
+# See <https://github.com/jekyll/jekyll-feed/issues/94#issuecomment-182026305>.
+show_drafts: true
+# The pages generated from these files will have links in the header.
+header_pages:
+  - about.md
+# See <http://jekyllrb.com/docs/collections/>.
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - README.md
+  - tags
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# vim: tw=90 sts=-1 sw=2 et

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  .alert {
+    padding: 6px;
+    background-color: red;
+    color: white;
+    align-content: center;
+  }
+
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .closebtn:hover {
+    color: white;
+  }
+</style>
+</head>
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+
+</html>
+
+<!-- vim: set tw=90 sts=-1 sw=2 et: -->

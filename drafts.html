@@ -1,0 +1,20 @@
+---
+layout: default
+sitemap: false
+---
+
+<div>
+  <h1>Drafts</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.draft %}
+        <li>
+          <span class="post-meta">{{ post.date | date: site.date_format }} | </span>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- vim: set tw=90 sts=-1 sw=2 et: -->
