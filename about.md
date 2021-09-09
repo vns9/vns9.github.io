@@ -6,7 +6,7 @@ last_modified_at: 2017-09-12
 permalink: /about/
 ---
 
-I'm a Computer Science Undergraduate at [IIT Banaras Hindu University], view my full profile [here].  I am not blogging full time; I occasionally take out some time from my schedule.
+I'm a Computer Science Undergraduate at [IIT Banaras Hindu University] currently working in J.P. Morgan Chase as Software Engineer, view my full profile [here].  I am not blogging full time; I occasionally take out some time from my schedule.
   
   
   
@@ -40,7 +40,7 @@ Articles I liked
 
 
 [Is Google making us stupid?]: https://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/306868/
-[here]: https://www.linkedin.com/in/narayanasvenkat/
+[here]: https://www.linkedin.com/in/venkat-narayana/
 [IIT Banaras Hindu University]: https://iitbhu.ac.in
 [news.google.com]: https://news.google.com
 [Skinner's experiment on operant conditioning]: https://youtu.be/I_ctJqjlrHA
